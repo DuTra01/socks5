@@ -18,7 +18,6 @@ COMMAND_CONNECT = b'\x01'
 TYP_IPV4 = b'\x01'
 TYP_DOMAIN = b'\x03'
 
-
 class Connection:
 	def __init__(self):
 		self.conn = None
@@ -160,7 +159,6 @@ class Clients:
 	def clients_connected(self):
 		return self.clients
 	
-
 class Socks5(Clients):
 	def __init__(self, host, port, limit):
 		super(Socks5, self).__init__()
