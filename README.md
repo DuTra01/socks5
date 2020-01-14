@@ -1,4 +1,4 @@
-# proxy socks5
+# Proxy socks5
 1. Versao: 0.1
 2. Autor: Glemison Dutra
 
