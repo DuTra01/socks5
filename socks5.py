@@ -205,7 +205,7 @@ def main():
 	parser.add_argument('--hostname', default='127.0.0.1', help='Default: 127.0.0.1')
 	parser.add_argument('--port', default='8888', help='Default: 8888')
 	parser.add_argument('--limit-connections', default='250', help='Default: 250. ' \
-		'Numero maximo de conexoes simultâneos')
+		'Numero maximo de conexoes simultâneas')
 	parser.add_argument('--log-level', default='INFO', help='DEBUG, INFO (default), WARNING, ERROR')
 	args = parser.parse_args()
 
