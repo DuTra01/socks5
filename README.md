@@ -19,13 +19,13 @@ python3 socks5.py
 
 ```
 apt-get install screen -y
-screen -S socks5 -md python3 socks5.py >> log.txt
+screen -S socks5 -dm python3 socks5.py >> log.txt
 ```
 (Registro de logs em `log.txt`)
 
 ### Encerre execução em segundo plano
 ```
-kill -9 socks5
+screen -S socks5 -X quit
 ```
 (Use apenas no debian e seus derivados)
 
